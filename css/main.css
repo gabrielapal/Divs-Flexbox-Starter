@@ -97,7 +97,7 @@ textarea {
 
 
 html {
-  background-color: #d1c5ed;
+  background-color: #fcf3d7;
   height: 100%;
   width: 100%;
 }
@@ -109,6 +109,43 @@ body {
   height: 100%;
   color: #635f6b;
   font-weight: 500;
+}
+
+header,
+footer {
+  background-color: #fff;
+  height: 80px;
+  width: 100%;
+}
+
+main {
+    background-color: #fce6ff;
+    height: 250px;
+    width: 100%;
+    font-size: 2.6em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #635f6b;
+    font-size: 2em;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 6.8em;
+    font-family: 'Reenie Beanie', cursive;
+    background-color: #fcf3d7;
+    padding-bottom: 30px;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 1.4em;
 }
 
 .wrapper {
@@ -125,9 +162,10 @@ body {
   color: #635f6b;
   line-height: 1.5em;
   font-size: 1.6em;
-  background-color: #d1c5ed;
+  background-color: #fcf3d7;
   height: auto;
   width: 30%;
+  padding: 20px;
 }
 
 .div-2 {
@@ -137,12 +175,78 @@ body {
   color: #635f6b;
   line-height: 1.5em;
   font-size: 1.28em;
-  background-color: #d1c5ed;
+  background-color: #fcf3d7;
   height: auto;
   width: 50%;
+  padding: 20px;
 }
 
+#contact {
+    background: #dedeff;
+    padding: 20px;
 
+}
+
+#contact .content-wrapper {
+    padding: 110px 0;
+
+}
+
+#contact .email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+#contact .linkedin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+#contact .github {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+#contact #contact-img {
+    width: 500px;
+    height: 300px;
+    border: 13px solid #ffffff;
+    margin: 0 50px;
+    box-sizing: border-box;
+}
+
+#contact h2 {
+    font-family: 'Geneva', 'sans serif';
+    font-size: 1.6em;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact #envelope1 {
+    width: 55px;
+    height: 55px;
+}
+
+#contact #linkedin {
+    width: 55px;
+    height: 55px;
+}
+
+#contact #git {
+    width: 55px;
+    height: 55px;
+}
 
 
 /* ==========================================================================
